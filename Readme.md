@@ -24,7 +24,7 @@ Once its release of first version it can be used in production.
 
 ### Run on local machine - instructions
 1. git clone https://github.com/sharadbhagwat/mcqWebApp.git
-2. cd Mcq-Web-App
+2. cd mcqWebApp
 3. pip install -r requirements.txt 
 If mysqlclient installatioon you can refer https://www.youtube.com/watch?v=6SnE0r7g2lE&t=133s 
 4. Open mysql client, create database 'create database mcqDb'
