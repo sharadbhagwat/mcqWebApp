@@ -30,8 +30,10 @@ If mysqlclient installatioon you can refer https://www.youtube.com/watch?v=6SnE0
 4. Open mysql client, create database 'create database mcqDb'
 5. Set correct mysql credentials in mcqWebApp/settings.py
 6. python manage.py makemigrations questions
-7. python manage.py runserver 8080
-8. Open this link -> localhost:8080 and try this application.
+7. python manage.py migrate
+8. Create admin user 'python manage.py createsuperuser'
+9. python manage.py runserver 8080
+10. Open this link -> 127.0.0.1:8080 and try this application.
 
 ### Todo
 1. Import questions from excel sheet.
