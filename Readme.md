@@ -23,15 +23,15 @@ This application is currently in development phase and hence its not suitable to
 Once its release of first version it can be used in production.
 
 ### Run on local machine - instructions
-1. $: pip3 install virtualenv
-2. $: virtualenv -p python3 my_virtual_env
-3. $: cd my_virtual_env
-4. $: source bin/activate
-5. (my_virtual_env) $: git clone git@github.com:ankity10/Mcq-Web-App.git
-6.  (my_virtual_env) $: cd Mcq-Web-App
-7.  (my_virtual_env) $: pip install -r requirements.txt
-8.  (my_virtual_env) $: python manage.py runserver 8080
-9.  Open this link -> localhost:8080 and try this application.
+1. git clone https://github.com/sharadbhagwat/mcqWebApp.git
+2. cd Mcq-Web-App
+3. pip install -r requirements.txt 
+If mysqlclient installatioon you can refer https://www.youtube.com/watch?v=6SnE0r7g2lE&t=133s 
+4. Open mysql client, create database 'create database mcqDb'
+5. Set correct mysql credentials in mcqWebApp/settings.py
+6. python manage.py makemigrations questions
+7. python manage.py runserver 8080
+8. Open this link -> localhost:8080 and try this application.
 
 ### Todo
 1. Import questions from excel sheet.
